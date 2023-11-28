@@ -4,6 +4,8 @@ class Program
 {
     static void Main()
     {
+
+        //julio cesar ramos pereira junior
         string projectRoot = AppDomain.CurrentDomain.BaseDirectory;
 
         string filePath = @"../../../provinhaBarbadinha.txt";
