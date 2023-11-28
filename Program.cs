@@ -12,7 +12,7 @@ class Program
         
         try
         {
-            // Open the file with a StreamReader
+            
             using (StreamReader reader = new StreamReader(filePath))
             {
                 string ciphertext = reader.ReadToEnd();
@@ -75,10 +75,10 @@ class Program
     }
     static int ContarPalavras(string texto)
     {
-        // Dividir o texto em palavras usando espaço como delimitador
+        
         string[] palavras = texto.Split(new char[] { ' ', '\t', '\n', '\r', '.', ',', ';', ':', '!', '?' }, StringSplitOptions.RemoveEmptyEntries);
 
-        // Retornar o número de palavras
+        
         return palavras.Length;
     }
 }
